@@ -1,6 +1,6 @@
 
 
-# Cluster Docker Swarm com Proxy Reverso e MySQL Automatizado
+# Cluster Docker Swarm com Proxy e MySQL ,  Utilização prática no cenário de Microsserviços by Denilson Bonatti, Instrutor - Digital Innovation
 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![NGINX](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
@@ -22,7 +22,7 @@ A proposta deste projeto é demonstrar a utilização prática de **Docker** e *
 ## 🛠️ Ferramentas Utilizadas
 
 - **Docker** e **Docker Swarm**
-- **NGINX** (proxy reverso)
+- **NGINX** (proxy)
 - **MySQL 5.7**
 - **PHP 8.2 com Apache**
 - **NFS** (para replicação de volume entre nós do cluster)
@@ -34,6 +34,7 @@ A proposta deste projeto é demonstrar a utilização prática de **Docker** e *
 ├── Dockerfile
 ├── nginx.config
 ├── banco.sql
+|___index.php
 └── README.md
 ```
 
